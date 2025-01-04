@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  just ls command:
     runs-on: self-hosted
     steps:
       - run: ls -ltrh
